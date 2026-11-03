@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIME BOY - Stream Anime Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ANIME <span>BOY</span></div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Categories</a></li>
+        </ul>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search anime...">
+            <button onclick="searchAnime()">Search</button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to ANIME BOY</h1>
+            <p>Watch your favorite anime series and movies in High Quality.</p>
+            <a href="#episodes" class="btn">Start Watching</a>
+        </div>
+    </header>
+
+    <section class="container" id="episodes">
+        <h2>Trending Anime</h2>
+        <div class="grid" id="animeGrid">
+            <!-- Dynamic Cards -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 ANIME BOY. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
